@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { AdminnavComponent } from './adminnav/adminnav.component';
 import { ListeempComponent } from './listeemp/listeemp.component';
 import { AjoutempComponent } from './ajoutemp/ajoutemp.component';
+import { EditempComponent } from './editemp/editemp.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AjoutempComponent } from './ajoutemp/ajoutemp.component';
     LoginComponent,
     AdminnavComponent,
     ListeempComponent,
-    AjoutempComponent
+    AjoutempComponent,
+    EditempComponent
   ],
   imports: [
     BrowserModule,
