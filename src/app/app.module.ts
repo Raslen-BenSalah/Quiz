@@ -8,6 +8,10 @@ import { AdminnavComponent } from './adminnav/adminnav.component';
 import { ListeempComponent } from './listeemp/listeemp.component';
 import { AjoutempComponent } from './ajoutemp/ajoutemp.component';
 import { EditempComponent } from './editemp/editemp.component';
+import { AjoutquizComponent } from './ajoutquiz/ajoutquiz.component';
+import { ListQuizComponent } from './list-quiz/list-quiz.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -16,11 +20,13 @@ import { EditempComponent } from './editemp/editemp.component';
     AdminnavComponent,
     ListeempComponent,
     AjoutempComponent,
-    EditempComponent
+    EditempComponent,
+    AjoutquizComponent,
+    ListQuizComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

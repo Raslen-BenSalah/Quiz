@@ -6,6 +6,8 @@ import { LoginComponent } from './login/login.component';
 import { ListeempComponent } from './listeemp/listeemp.component';
 import { AjoutempComponent } from './ajoutemp/ajoutemp.component';
 import { EditempComponent } from './editemp/editemp.component';
+import { AjoutquizComponent } from './ajoutquiz/ajoutquiz.component';
+import { ListQuizComponent } from './list-quiz/list-quiz.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'login', pathMatch:'full'},
@@ -14,8 +16,9 @@ const routes: Routes = [
   {path:"listeemp", component:ListeempComponent},
   {path:"ajoutemp", component:AjoutempComponent},
   {path:"editemp", component:EditempComponent},
+  {path:"ajoutquiz", component:AjoutquizComponent},
+  {path:"listquiz", component:ListQuizComponent},
 
-  
 ];
 
 @NgModule({

@@ -1,39 +1,61 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Les Employés
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Liste des employés</a>
-              <a class="dropdown-item" href="#">Ajouter un employé</a>
+<div class="container">
+    
+    <aside>
+
+        <div class="top">
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo">
+                 <h2>AGIL<span class="danger">CORPORATE UNIVERSITY</span></h2>
             </div>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Les Tests
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Liste des tests</a>
-              <a class="dropdown-item" href="#">Ajouter un test</a>
+
+            <div class="close" id="close-btn">
+                 <span class="material-icons-sharp">close</span>
             </div>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Mon compte
+        </div>
+
+        <div class="sidebar">
+
+            <a class="active" href="#">
+                <span class="material-icons-sharp">grid_view</span>
+                <h3>Dashboard</h3>
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">mon profil</a>
-                <a class="dropdown-item" href="#">modifier le mot de passe</a>
-                <a class="dropdown-item text-danger" href="#">déconnexion</a>
+
+            <a href="#">
+                <span class="material-icons-sharp">person_outline</span>
+                <h3>Les Employés</h3>
+            </a>
+
+            <a href="#">
+                <span class="material-icons-sharp">inventory</span>
+                <h3>Les tests</h3>
+            </a>
+
+            <a href="#">
+                <span class="material-icons-sharp">logout</span>
+                <h3>Logout</h3>
+            </a>
+
+        </div>
+
+    </aside>
+
+    <div class="right">
+        <div class="top">
+
+            <div class="profile">
+                <div class="info">
+                    <p>Hey, <b>Raslen</b></p>
+                    <small class="text-muted">Admin</small>
+                </div>
+                <div class="profile-photo">
+                    <img src="assets/images/profile-1.jpg" alt="">
+                </div>
             </div>
-        </li>
-      </ul>
+
+        </div>
     </div>
-</nav>
+
+</div>
+
+
 

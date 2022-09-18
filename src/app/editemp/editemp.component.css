@@ -3,6 +3,8 @@ h1{
 }
 
 img{
-    width: 15%;
-    margin: 50px 0 50px 0;  
+    width: 150px;
+    height: 150px;
+    margin: 50px 0 50px 0;
+    border-radius: 100px;
 }
