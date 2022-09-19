@@ -1,0 +1,25 @@
+.container{
+    margin-top: 200px;
+    background-color: var(--color-white);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shaddow);
+    padding: var( --card-padding);
+}
+
+input{
+    border-radius: var(--border-radius-2);
+    box-shadow: var(--box-shaddow);
+    padding: var( --card-padding);
+    height: 1rem;
+}
+
+button{
+    background-color: var(--color-primary);
+    border-radius: var(--border-radius-2);
+    color: var(--color-white);
+    width: 150px;
+    height: 50px;
+    box-shadow: var(--box-shaddow);
+    font-weight: bold;
+}
+

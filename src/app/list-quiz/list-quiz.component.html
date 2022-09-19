@@ -1,24 +1,29 @@
 <div class="container">
-    <table class="table table-striped">
-        <thead class="table-dark">
-        <tr>
-            <th scope="col">id</th>
-            <th scope="col">titre de la quiz</th>
-            <th></th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr *ngFor="let quiz of listQuiz">
-            <th scope="row"> <a href=""> {{quiz.id}} </a></th>
-            <td class="w-25">
-                <a href="">  <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-3.jpg" class=" w-25 rounded-circle" alt="Sheep">
-                </a> </td> 
-            <td> <a href=""> {{quiz.title}} </a></td>
-            <td><button class="btn btn-warning"></button></td>
-        </tr>
+    <div class="recent-orders">
+        <h2>Liste des Tests</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Numero du test</th>
+                        <th>Titre du test</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let quiz of listQuiz">
+                          <td>{{quiz.id}}</td>
+                          <td>{{quiz.title}}</td>
+                          <td class="text-primary">Details</td>
+    
+                    </tr>
         </tbody>
     </table>
+            
+    <a href="#">Show All</a>
     
+    </div>
+    
+                        
 </div>
 
 

@@ -8,9 +8,10 @@ import { AjoutempComponent } from './ajoutemp/ajoutemp.component';
 import { EditempComponent } from './editemp/editemp.component';
 import { AjoutquizComponent } from './ajoutquiz/ajoutquiz.component';
 import { ListQuizComponent } from './list-quiz/list-quiz.component';
+import { AdminprofileComponent } from './adminprofile/adminprofile.component';
 
 const routes: Routes = [
-  {path:'', redirectTo:'login', pathMatch:'full'},
+  // {path:'', redirectTo:'login', pathMatch:'full'},
   {path:'login', component:LoginComponent},
   {path:'adminnav', component:AdminnavComponent},
   {path:"listeemp", component:ListeempComponent},
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path:"editemp", component:EditempComponent},
   {path:"ajoutquiz", component:AjoutquizComponent},
   {path:"listquiz", component:ListQuizComponent},
+  {path:"adminprofile", component:AdminprofileComponent}
 
 ];
 
