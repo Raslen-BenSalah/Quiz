@@ -25,4 +25,8 @@ button{
 
 .container_add img{
     width: 15%;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: var(--box-shaddow);
 }
+

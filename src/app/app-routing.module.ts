@@ -9,6 +9,7 @@ import { EditempComponent } from './editemp/editemp.component';
 import { AjoutquizComponent } from './ajoutquiz/ajoutquiz.component';
 import { ListQuizComponent } from './list-quiz/list-quiz.component';
 import { AdminprofileComponent } from './adminprofile/adminprofile.component';
+import { EditadminComponent } from './editadmin/editadmin.component';
 
 const routes: Routes = [
   // {path:'', redirectTo:'login', pathMatch:'full'},
@@ -19,7 +20,8 @@ const routes: Routes = [
   {path:"editemp", component:EditempComponent},
   {path:"ajoutquiz", component:AjoutquizComponent},
   {path:"listquiz", component:ListQuizComponent},
-  {path:"adminprofile", component:AdminprofileComponent}
+  {path:"adminprofile", component:AdminprofileComponent},
+  {path:"editadmin", component:EditadminComponent},
 
 ];
 
