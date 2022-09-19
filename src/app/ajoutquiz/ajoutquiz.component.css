@@ -3,7 +3,7 @@
     border-radius: var(--card-border-radius);
     box-shadow: var(--box-shaddow);
     padding: var( --card-padding);
-    height: 80%;
+    min-height: 80%;
     margin-top: 5%;
 }
 
@@ -14,7 +14,7 @@ input{
 }
 
 button{
-    background-color: var(--color-primary);
+    background-color: var(--color-success);
     border-radius: var(--border-radius-2);
     color: var(--color-white);
     width: 150px;
@@ -23,3 +23,12 @@ button{
     font-weight: bold;
 }
 
+#add_btn{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--color-primary);
+}
+
+.reponse{
+    width: 50%;
+}

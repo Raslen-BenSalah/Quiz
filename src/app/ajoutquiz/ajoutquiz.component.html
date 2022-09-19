@@ -6,8 +6,27 @@
           <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Titre...">
         </div>
         
-          <div class="text-center">
-            <button type="submit">Ajouter</button>
+      </form>
+      <div class="text-center">
+        <button type="button" (click)="addElement()" class="material-icons-sharp" id="add_btn">add</button>
+      </div>
+        <div *ngFor="let e of elements">
+
+          <label for="exampleInputEmail1">Question {{e.id}} :</label>
+          <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="question...">
+          <div *ngFor="let re for rep_elements">
+          <div class="reponse">
+            <label for="exampleInputEmail1">Reponse :</label>
+            <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Reponse...">
           </div>
-        </form>
+
+        </div>
+
+      </div>
+      
+      <div class="text-center mt-5">
+        <button type="submit">Confirmer Le Test</button>
+      </div>
+
+
 </div>

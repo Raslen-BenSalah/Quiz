@@ -1,5 +1,8 @@
-<div class="recent-orders">
-    <h2>Liste des employés</h2>
+<h1>Dashboard</h1>
+
+<div class="dashboard">
+    <div class="component">
+    <h2 class="text-center">Liste des employés</h2>
         <table>
             <thead>
                 <tr>
@@ -43,7 +46,38 @@
     </tbody>
 </table>
         
+<a routerLink="/listeemp">Show All</a>
 </div>
+
+<div class="component">
+        <h2 class="text-center">Liste des Tests</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Numero du test</th>
+                        <th>Titre du test</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let quiz of listQuiz">
+                          <td>{{quiz.id}}</td>
+                          <td>{{quiz.title}}</td>
+                          <td class="text-primary">Details</td>
+    
+                    </tr>
+
+        </tbody>
+    </table>
+            
+    <a routerLink="/listquiz">Show All</a>
+                        
+</div>
+</div>
+
+
+
+
 
                     
 

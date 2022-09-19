@@ -3,13 +3,14 @@ import { Quiz } from '../models/quiz';
 import { QuizService } from '../services/quiz.service';
 
 @Component({
-  selector: 'app-list-quiz',
-  templateUrl: './list-quiz.component.html',
-  styleUrls: ['./list-quiz.component.css']
+  selector: 'app-dashboard',
+  templateUrl: './dashboard.component.html',
+  styleUrls: ['./dashboard.component.css']
 })
-export class ListQuizComponent implements OnInit {
+export class DashboardComponent implements OnInit {
 
-  listQuiz !: Quiz[] ; 
+  listQuiz !: Quiz[] ;
+
 
   constructor(private quizService : QuizService) { }
 
@@ -17,6 +18,7 @@ export class ListQuizComponent implements OnInit {
     this.quizService.list().subscribe(
       data=> this.listQuiz = data
     )
+
   }
 
 }

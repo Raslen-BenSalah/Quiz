@@ -13,6 +13,7 @@ import { ListQuizComponent } from './list-quiz/list-quiz.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AdminprofileComponent } from './adminprofile/adminprofile.component';
 import { EditadminComponent } from './editadmin/editadmin.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { EditadminComponent } from './editadmin/editadmin.component';
     AjoutquizComponent,
     ListQuizComponent,
     AdminprofileComponent,
-    EditadminComponent
+    EditadminComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
