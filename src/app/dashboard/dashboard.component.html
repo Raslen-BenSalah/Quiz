@@ -1,79 +1,19 @@
 <h1>Dashboard</h1>
 
 <div class="dashboard">
-    <div class="component">
-    <h2 class="text-center">Liste des employés</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Nom d'employé</th>
-                    <th>numero de la carte d'identité</th>
-                    <th>Département</th>
-                    <th>Poste</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                      <td>Foldable Mini Drone</td>
-                      <td>85631</td>
-                      <td>Due</td>
-                      <td>Pending</td>
-                      <td class="text-primary"> <a routerLink="/editemp"> Details </a></td>
-
-                </tr>
-                <tr>
-                    <td>Foldable Mini Drone</td>
-                    <td>85631</td>
-                    <td>Due</td>
-                    <td>Pending</td>
-                    <td class="text-primary"> <a routerLink="/editemp"> Details </a></td>
-                </tr>
-              <tr>
-                <td>Foldable Mini Drone</td>
-                <td>85631</td>
-                <td>Due</td>
-                <td>Pending</td>
-                <td class="text-primary"> <a routerLink="/editemp"> Details </a></td>
-          </tr>
-        <tr>
-            <td>Foldable Mini Drone</td>
-            <td>85631</td>
-            <td>Due</td>
-            <td>Pending</td>
-            <td class="text-primary"> <a routerLink="/editemp"> Details </a></td>
-        </tr>
-    </tbody>
-</table>
-        
-<a routerLink="/listeemp">Show All</a>
-</div>
-
-<div class="component">
-        <h2 class="text-center">Liste des Tests</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Numero du test</th>
-                        <th>Titre du test</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr *ngFor="let quiz of listQuiz">
-                          <td>{{quiz.id}}</td>
-                          <td>{{quiz.title}}</td>
-                          <td class="text-primary">Details</td>
     
-                    </tr>
+    <div class="component">
+        <app-listeemp></app-listeemp>
+        <a routerLink="/listeemp">Show All</a>
+    </div>
 
-        </tbody>
-    </table>
-            
-    <a routerLink="/listquiz">Show All</a>
-                        
+    <div class="component">
+        <app-list-quiz></app-list-quiz>        
+        <a routerLink="/listquiz">Show All</a>                  
+    </div>
+
 </div>
-</div>
+
 
 
 

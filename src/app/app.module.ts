@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AdminprofileComponent } from './adminprofile/adminprofile.component';
 import { EditadminComponent } from './editadmin/editadmin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { DetailempComponent } from './detailemp/detailemp.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     ListQuizComponent,
     AdminprofileComponent,
     EditadminComponent,
-    DashboardComponent
+    DashboardComponent,
+    DetailempComponent
   ],
   imports: [
     BrowserModule,

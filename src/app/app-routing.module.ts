@@ -11,6 +11,7 @@ import { ListQuizComponent } from './list-quiz/list-quiz.component';
 import { AdminprofileComponent } from './adminprofile/adminprofile.component';
 import { EditadminComponent } from './editadmin/editadmin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { DetailempComponent } from './detailemp/detailemp.component';
 
 const routes: Routes = [
   // {path:'', redirectTo:'login', pathMatch:'full'},
@@ -24,7 +25,7 @@ const routes: Routes = [
   {path:"adminprofile", component:AdminprofileComponent},
   {path:"editadmin", component:EditadminComponent},
   {path:"dashboard", component:DashboardComponent},
-
+  {path:"detailemp", component:DetailempComponent}
 
 ];
 

@@ -9,15 +9,11 @@ import { QuizService } from '../services/quiz.service';
 })
 export class DashboardComponent implements OnInit {
 
-  listQuiz !: Quiz[] ;
 
 
   constructor(private quizService : QuizService) { }
 
   ngOnInit(): void {
-    this.quizService.list().subscribe(
-      data=> this.listQuiz = data
-    )
 
   }
 
