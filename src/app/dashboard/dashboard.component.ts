@@ -9,6 +9,7 @@ import { QuizService } from '../services/quiz.service';
 })
 export class DashboardComponent implements OnInit {
 
+    myDate = Date.now();
 
 
   constructor(private quizService : QuizService) { }

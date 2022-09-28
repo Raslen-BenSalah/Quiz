@@ -3,7 +3,6 @@
     border-radius: var(--card-border-radius);
     box-shadow: var(--box-shaddow);
     padding: var( --card-padding);
-    height: 80%;
     margin-top: 5%;
 }
 
@@ -23,6 +22,7 @@ button{
     font-weight: bold;
 }
 
+
 .container_add img{
     width: 15%;
     border-radius: 50%;
@@ -30,3 +30,9 @@ button{
     box-shadow: var(--box-shaddow);
 }
 
+span.eyeicon {
+    float: right;
+    cursor: pointer;
+    margin: -2.2rem 1rem;
+    color: var(--color-info-dark);
+}
